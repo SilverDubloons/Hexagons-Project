@@ -1,0 +1,13 @@
+Control		Description
+
+Q			Toggles player character
+E			Toggles level editor
+Space		Change to selection cursor
+F1			Save Level (uses file name in input box in bottom left, does not ask to overwrite)
+F2			Loads level in input box
+Ctrl-C		Copy selection
+Z			Cycle materials for selected objects
+0 - 4		Selects objects to be placed in the world
+Right-Click	Brings up context menu, when objects are selected allows for use of texture selector and texture scaling
+T			Toggles transparency
+R			Deletes pathing hexagons

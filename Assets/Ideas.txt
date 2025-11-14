@@ -1,0 +1,11 @@
+*** Technical Ideas ***
+
+	-	Having hundreds of objects most of which have multiple renderers seems like it's going to get bogged down really quick. Right now each one is creating a material variant. One idea is to create some kind of shared material system for objects that have the same texture and texture scale (plus any other relevant properties that get added along the way).
+	
+		This could be implemented into the level loading function, creating a list of unique materials created so far and checking against them for each new object put into the scene (first check if textureIndex is the same, then scale etc).
+	
+		More efficient to somehow do it in the saving function probably.
+
+*** Attribute ideas ***
+
+	-	In a recent video (https://youtu.be/RfNtPr7LeGQ?t=209) Tim Cain shows off his attribute redesign idea, wherein instead of using numbers, triangles are used. In each corner are one of three attrributes (there are two triangles, one for the three physical attributes, and one for the three mental attributes).
